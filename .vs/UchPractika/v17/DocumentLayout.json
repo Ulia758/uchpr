@@ -1,67 +1,67 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\",
+  "WorkspaceRootPath": "C:\\Users\\uliak\\Desktop\\UchPractika\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|e:\\\u043C\u043E\u0451\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\uchpractika\\uchpractika\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|c:\\users\\uliak\\desktop\\uchpractika\\uchpractika\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|e:\\\u043C\u043E\u0451\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\uchpractika\\uchpractika\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/ULIA_SQLSERVER/AISUchet/True/SqlTable/dbo.Equipment.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|e:\\\u043C\u043E\u0451\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\uchpractika\\uchpractika\\pages\\equipmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\pages\\equipmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\pages\\equipmentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/ULIA_SQLSERVER/AISUchet/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|e:\\\u043C\u043E\u0451\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\uchpractika\\uchpractika\\pages\\equipmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\pages\\equipmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\pages\\equipmentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|e:\\\u043C\u043E\u0451\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\uchpractika\\uchpractika\\pages\\addequipment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\pages\\addequipment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\pages\\addequipment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|e:\\\u043C\u043E\u0451\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\uchpractika\\uchpractika\\pages\\addequipment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\pages\\addequipment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\pages\\addequipment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\uchpractika\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|e:\\\u043C\u043E\u0451\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\uchpractika\\uchpractika\\pages\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\pages\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\pages\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|e:\\\u043C\u043E\u0451\\\u0443\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\uchpractika\\uchpractika\\pages\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\pages\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\pages\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\uchpractika\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\uchpractika\\appdata\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\appdata\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\appdata\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\uchpractika\\appdata\\nav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\appdata\\nav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\appdata\\nav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\uchpractika\\appdata\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\appdata\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\appdata\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\uchpractika\\resources\\1674284262_catherineasquithgallery-com-p-fon-dlya-chata-serii-foto-22.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|C:\\Users\\uliak\\Desktop\\UchPractika\\uchpractika\\resources\\1674284262_catherineasquithgallery-com-p-fon-dlya-chata-serii-foto-22.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{F992228A-A812-4462-9049-A6BF178DF16A}|UchPractika\\UchPractika.csproj|solutionrelative:uchpractika\\resources\\1674284262_catherineasquithgallery-com-p-fon-dlya-chata-serii-foto-22.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     }
   ],
@@ -77,12 +77,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pages\\MainPage.xaml.cs",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\MainPage.xaml.cs",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "UchPractika\\Pages\\MainPage.xaml.cs",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\MainPage.xaml.cs",
               "RelativeToolTip": "UchPractika\\Pages\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAnwCMAAAArAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAnwCAAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T14:50:23.245Z",
               "EditorCaption": ""
@@ -94,8 +94,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/ULIA_SQLSERVER/AISUchet/True/SqlTable/dbo.Equipment.sql",
               "ToolTip": "dbo.Equipment [\u0414\u0430\u043D\u043D\u044B\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-02-06T15:48:44.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T15:48:44.346Z"
             },
             {
               "$type": "Document",
@@ -104,16 +103,15 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/ULIA_SQLSERVER/AISUchet/True/SqlTable/dbo.Users.sql",
               "ToolTip": "dbo.Users [\u0414\u0430\u043D\u043D\u044B\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-02-06T14:43:15.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T14:43:15.212Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\MainPage.xaml",
               "RelativeDocumentMoniker": "UchPractika\\Pages\\MainPage.xaml",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\MainPage.xaml",
               "RelativeToolTip": "UchPractika\\Pages\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-04T08:22:55.361Z",
@@ -123,136 +121,125 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "EquipmentPage.xaml.cs",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\EquipmentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\EquipmentPage.xaml.cs",
               "RelativeDocumentMoniker": "UchPractika\\Pages\\EquipmentPage.xaml.cs",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\EquipmentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\EquipmentPage.xaml.cs",
               "RelativeToolTip": "UchPractika\\Pages\\EquipmentPage.xaml.cs",
               "ViewState": "AQIAABYAAAAAAAAAAADwvyQAAAD4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T15:33:54.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T15:33:54.989Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "EquipmentPage.xaml",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\EquipmentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\EquipmentPage.xaml",
               "RelativeDocumentMoniker": "UchPractika\\Pages\\EquipmentPage.xaml",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\EquipmentPage.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\EquipmentPage.xaml",
               "RelativeToolTip": "UchPractika\\Pages\\EquipmentPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-06T15:33:35.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T15:33:35.039Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AddEquipment.xaml",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\AddEquipment.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\AddEquipment.xaml",
               "RelativeDocumentMoniker": "UchPractika\\Pages\\AddEquipment.xaml",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\AddEquipment.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\AddEquipment.xaml",
               "RelativeToolTip": "UchPractika\\Pages\\AddEquipment.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-06T15:34:56.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T15:34:56.486Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AddEquipment.xaml.cs",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\AddEquipment.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\AddEquipment.xaml.cs",
               "RelativeDocumentMoniker": "UchPractika\\Pages\\AddEquipment.xaml.cs",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\AddEquipment.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\AddEquipment.xaml.cs",
               "RelativeToolTip": "UchPractika\\Pages\\AddEquipment.xaml.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAuwCIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T15:35:20.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T15:35:20.154Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Connect.cs",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\AppData\\Connect.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\AppData\\Connect.cs",
               "RelativeDocumentMoniker": "UchPractika\\AppData\\Connect.cs",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\AppData\\Connect.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\AppData\\Connect.cs",
               "RelativeToolTip": "UchPractika\\AppData\\Connect.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T08:30:50.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T08:30:50.737Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\MainWindow.xaml",
               "RelativeDocumentMoniker": "UchPractika\\MainWindow.xaml",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\MainWindow.xaml",
               "RelativeToolTip": "UchPractika\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-04T08:22:25.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T08:22:25.564Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Authorization.xaml",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\Authorization.xaml",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\Authorization.xaml",
               "RelativeDocumentMoniker": "UchPractika\\Pages\\Authorization.xaml",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\Authorization.xaml",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\Authorization.xaml",
               "RelativeToolTip": "UchPractika\\Pages\\Authorization.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-06T14:27:42.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T14:27:42.027Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Pages\\Authorization.xaml.cs",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\Authorization.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\Authorization.xaml.cs",
               "RelativeDocumentMoniker": "UchPractika\\Pages\\Authorization.xaml.cs",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Pages\\Authorization.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Pages\\Authorization.xaml.cs",
               "RelativeToolTip": "UchPractika\\Pages\\Authorization.xaml.cs",
               "ViewState": "AQIAACMAAAAAAAAAAADwvx4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T14:37:29.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T14:37:29.498Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "UchPractika\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\MainWindow.xaml.cs",
               "RelativeToolTip": "UchPractika\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T08:30:24.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T08:30:24.071Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Nav.cs",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\AppData\\Nav.cs",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\AppData\\Nav.cs",
               "RelativeDocumentMoniker": "UchPractika\\AppData\\Nav.cs",
-              "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\AppData\\Nav.cs",
+              "ToolTip": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\AppData\\Nav.cs",
               "RelativeToolTip": "UchPractika\\AppData\\Nav.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T08:31:09.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T08:31:09.591Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\AppData\\Model1.edmx",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\AppData\\Model1.edmx",
               "RelativeDocumentMoniker": "UchPractika\\AppData\\Model1.edmx",
               "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\AppData\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "UchPractika\\AppData\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2025-02-05T18:41:08.545Z"
             },
@@ -260,10 +247,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "1674284262_catherineasquithgallery-com-p-fon-dlya-chata-serii-foto-22.jpg - Bitmap [1920x1200, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]",
-              "DocumentMoniker": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Resources\\1674284262_catherineasquithgallery-com-p-fon-dlya-chata-serii-foto-22.jpg",
+              "DocumentMoniker": "C:\\Users\\uliak\\Desktop\\UchPractika\\UchPractika\\Resources\\1674284262_catherineasquithgallery-com-p-fon-dlya-chata-serii-foto-22.jpg",
               "RelativeDocumentMoniker": "UchPractika\\Resources\\1674284262_catherineasquithgallery-com-p-fon-dlya-chata-serii-foto-22.jpg",
               "ToolTip": "E:\\\u041C\u043E\u0451\\\u0423\u0447\u0435\u0431\u043D\u0430\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\UchPractika\\UchPractika\\Resources\\1674284262_catherineasquithgallery-com-p-fon-dlya-chata-serii-foto-22.jpg - Bitmap [1920x1200, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]",
-              "RelativeToolTip": "UchPractika\\Resources\\1674284262_catherineasquithgallery-com-p-fon-dlya-chata-serii-foto-22.jpg - Bitmap [1920x1200, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2025-02-04T08:21:32.217Z"
             }

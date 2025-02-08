@@ -30,7 +30,7 @@ namespace UchPractika.Pages
         {
             Nav.MainFrame.Navigate(new EquipmentPage());
         }
-
+        //
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
