@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище AISUchetModelContainer" CdmEntityContainer="AISUchetEntities1">
+    <EntitySetMapping Name="Assignment">
+      <EntityTypeMapping TypeName="AISUchetModel.Assignment">
+        <MappingFragment StoreEntitySet="Assignment">
+          <ScalarProperty Name="IdAssignment" ColumnName="IdAssignment" />
+          <ScalarProperty Name="IdUsers" ColumnName="IdUsers" />
+          <ScalarProperty Name="IdEquipment" ColumnName="IdEquipment" />
+          <ScalarProperty Name="DateAssignment" ColumnName="DateAssignment" />
+          <ScalarProperty Name="ReturnDateAssignment" ColumnName="ReturnDateAssignment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Equipment">
+      <EntityTypeMapping TypeName="AISUchetModel.Equipment">
+        <MappingFragment StoreEntitySet="Equipment">
+          <ScalarProperty Name="IdEquipment" ColumnName="IdEquipment" />
+          <ScalarProperty Name="NameEquipment" ColumnName="NameEquipment" />
+          <ScalarProperty Name="TypeEquipment" ColumnName="TypeEquipment" />
+          <ScalarProperty Name="ModelEquipment" ColumnName="ModelEquipment" />
+          <ScalarProperty Name="SerialNumberEquipment" ColumnName="SerialNumberEquipment" />
+          <ScalarProperty Name="PurchaseDateEquipment" ColumnName="PurchaseDateEquipment" />
+          <ScalarProperty Name="WarrantyPeriodEquipment" ColumnName="WarrantyPeriodEquipment" />
+          <ScalarProperty Name="IdLocation" ColumnName="IdLocation" />
+          <ScalarProperty Name="StatusEquipment" ColumnName="StatusEquipment" />
+          <ScalarProperty Name="IdSuppliers" ColumnName="IdSuppliers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Location">
+      <EntityTypeMapping TypeName="AISUchetModel.Location">
+        <MappingFragment StoreEntitySet="Location">
+          <ScalarProperty Name="IdLocation" ColumnName="IdLocation" />
+          <ScalarProperty Name="NameLocation" ColumnName="NameLocation" />
+          <ScalarProperty Name="AdressLocation" ColumnName="AdressLocation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Maintenance">
+      <EntityTypeMapping TypeName="AISUchetModel.Maintenance">
+        <MappingFragment StoreEntitySet="Maintenance">
+          <ScalarProperty Name="IdMaintenance" ColumnName="IdMaintenance" />
+          <ScalarProperty Name="IdEquipment" ColumnName="IdEquipment" />
+          <ScalarProperty Name="DateMaintenance" ColumnName="DateMaintenance" />
+          <ScalarProperty Name="DescriptionMaintenance" ColumnName="DescriptionMaintenance" />
+          <ScalarProperty Name="PerformedMaintenance" ColumnName="PerformedMaintenance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Price">
+      <EntityTypeMapping TypeName="AISUchetModel.Price">
+        <MappingFragment StoreEntitySet="Price">
+          <ScalarProperty Name="IdPrice" ColumnName="IdPrice" />
+          <ScalarProperty Name="IdEquipment" ColumnName="IdEquipment" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="AISUchetModel.Suppliers">
+        <MappingFragment StoreEntitySet="Suppliers">
+          <ScalarProperty Name="IdSuppliers" ColumnName="IdSuppliers" />
+          <ScalarProperty Name="NameSuppliers" ColumnName="NameSuppliers" />
+          <ScalarProperty Name="ContactInfoSuppliers" ColumnName="ContactInfoSuppliers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="AISUchetModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="IdUsers" ColumnName="IdUsers" />
+          <ScalarProperty Name="NameUsers" ColumnName="NameUsers" />
+          <ScalarProperty Name="PasswordUsers" ColumnName="PasswordUsers" />
+          <ScalarProperty Name="RoleUsers" ColumnName="RoleUsers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AISUchetModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Assignment">
+    <Key>
+      <PropertyRef Name="IdAssignment" />
+    </Key>
+    <Property Name="IdAssignment" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdUsers" Type="Int32" Nullable="false" />
+    <Property Name="IdEquipment" Type="Int32" Nullable="false" />
+    <Property Name="DateAssignment" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ReturnDateAssignment" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Equipment" Relationship="Self.FK_Assignment_Equipment" FromRole="Assignment" ToRole="Equipment" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Assignment_Users" FromRole="Assignment" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Equipment">
+    <Key>
+      <PropertyRef Name="IdEquipment" />
+    </Key>
+    <Property Name="IdEquipment" Type="Int32" Nullable="false" />
+    <Property Name="NameEquipment" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TypeEquipment" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ModelEquipment" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SerialNumberEquipment" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PurchaseDateEquipment" Type="DateTime" Precision="0" />
+    <Property Name="WarrantyPeriodEquipment" Type="Int32" />
+    <Property Name="IdLocation" Type="Int32" />
+    <Property Name="StatusEquipment" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="IdSuppliers" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Assignment" Relationship="Self.FK_Assignment_Equipment" FromRole="Equipment" ToRole="Assignment" />
+    <NavigationProperty Name="Location" Relationship="Self.FK_Equipment_Location" FromRole="Equipment" ToRole="Location" />
+    <NavigationProperty Name="Suppliers" Relationship="Self.FK_Equipment_Suppliers" FromRole="Equipment" ToRole="Suppliers" />
+    <NavigationProperty Name="Maintenance" Relationship="Self.FK_Maintenance_Equipment" FromRole="Equipment" ToRole="Maintenance" />
+    <NavigationProperty Name="Price" Relationship="Self.FK_Price_Equipment" FromRole="Equipment" ToRole="Price" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="IdLocation" />
+    </Key>
+    <Property Name="IdLocation" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameLocation" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="AdressLocation" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Equipment" Relationship="Self.FK_Equipment_Location" FromRole="Location" ToRole="Equipment" />
+  </EntityType>
+  <EntityType Name="Maintenance">
+    <Key>
+      <PropertyRef Name="IdMaintenance" />
+    </Key>
+    <Property Name="IdMaintenance" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEquipment" Type="Int32" Nullable="false" />
+    <Property Name="DateMaintenance" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DescriptionMaintenance" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="PerformedMaintenance" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Equipment" Relationship="Self.FK_Maintenance_Equipment" FromRole="Maintenance" ToRole="Equipment" />
+  </EntityType>
+  <EntityType Name="Price">
+    <Key>
+      <PropertyRef Name="IdPrice" />
+    </Key>
+    <Property Name="IdPrice" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdEquipment" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Cost" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Equipment" Relationship="Self.FK_Price_Equipment" FromRole="Price" ToRole="Equipment" />
+  </EntityType>
+  <EntityType Name="Suppliers">
+    <Key>
+      <PropertyRef Name="IdSuppliers" />
+    </Key>
+    <Property Name="IdSuppliers" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameSuppliers" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContactInfoSuppliers" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Equipment" Relationship="Self.FK_Equipment_Suppliers" FromRole="Suppliers" ToRole="Equipment" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="IdUsers" />
+    </Key>
+    <Property Name="IdUsers" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameUsers" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PasswordUsers" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="RoleUsers" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Assignment" Relationship="Self.FK_Assignment_Users" FromRole="Users" ToRole="Assignment" />
+  </EntityType>
+  <Association Name="FK_Assignment_Equipment">
+    <End Role="Equipment" Type="Self.Equipment" Multiplicity="1" />
+    <End Role="Assignment" Type="Self.Assignment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipment">
+        <PropertyRef Name="IdEquipment" />
+      </Principal>
+      <Dependent Role="Assignment">
+        <PropertyRef Name="IdEquipment" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Assignment_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Assignment" Type="Self.Assignment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="IdUsers" />
+      </Principal>
+      <Dependent Role="Assignment">
+        <PropertyRef Name="IdUsers" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Equipment_Location">
+    <End Role="Location" Type="Self.Location" Multiplicity="0..1" />
+    <End Role="Equipment" Type="Self.Equipment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="IdLocation" />
+      </Principal>
+      <Dependent Role="Equipment">
+        <PropertyRef Name="IdLocation" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Equipment_Suppliers">
+    <End Role="Suppliers" Type="Self.Suppliers" Multiplicity="1" />
+    <End Role="Equipment" Type="Self.Equipment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suppliers">
+        <PropertyRef Name="IdSuppliers" />
+      </Principal>
+      <Dependent Role="Equipment">
+        <PropertyRef Name="IdSuppliers" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Maintenance_Equipment">
+    <End Role="Equipment" Type="Self.Equipment" Multiplicity="1" />
+    <End Role="Maintenance" Type="Self.Maintenance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipment">
+        <PropertyRef Name="IdEquipment" />
+      </Principal>
+      <Dependent Role="Maintenance">
+        <PropertyRef Name="IdEquipment" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Price_Equipment">
+    <End Role="Equipment" Type="Self.Equipment" Multiplicity="1" />
+    <End Role="Price" Type="Self.Price" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipment">
+        <PropertyRef Name="IdEquipment" />
+      </Principal>
+      <Dependent Role="Price">
+        <PropertyRef Name="IdEquipment" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AISUchetEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Assignment" EntityType="Self.Assignment" />
+    <EntitySet Name="Equipment" EntityType="Self.Equipment" />
+    <EntitySet Name="Location" EntityType="Self.Location" />
+    <EntitySet Name="Maintenance" EntityType="Self.Maintenance" />
+    <EntitySet Name="Price" EntityType="Self.Price" />
+    <EntitySet Name="Suppliers" EntityType="Self.Suppliers" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_Assignment_Equipment" Association="Self.FK_Assignment_Equipment">
+      <End Role="Equipment" EntitySet="Equipment" />
+      <End Role="Assignment" EntitySet="Assignment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Assignment_Users" Association="Self.FK_Assignment_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Assignment" EntitySet="Assignment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Equipment_Location" Association="Self.FK_Equipment_Location">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="Equipment" EntitySet="Equipment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Equipment_Suppliers" Association="Self.FK_Equipment_Suppliers">
+      <End Role="Suppliers" EntitySet="Suppliers" />
+      <End Role="Equipment" EntitySet="Equipment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Maintenance_Equipment" Association="Self.FK_Maintenance_Equipment">
+      <End Role="Equipment" EntitySet="Equipment" />
+      <End Role="Maintenance" EntitySet="Maintenance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Price_Equipment" Association="Self.FK_Price_Equipment">
+      <End Role="Equipment" EntitySet="Equipment" />
+      <End Role="Price" EntitySet="Price" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

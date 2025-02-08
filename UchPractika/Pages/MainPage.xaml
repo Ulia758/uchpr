@@ -1,0 +1,33 @@
+﻿<Page x:Class="UchPractika.Pages.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:UchPractika.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="MainPage">
+
+    <Grid >
+        <Grid.Background>
+            <ImageBrush ImageSource="E:\Моё\Учебная практика\UchPractika\UchPractika\Resources\1674284262_catherineasquithgallery-com-p-fon-dlya-chata-serii-foto-22.jpg" Stretch="Fill" TileMode="Tile"/>
+        </Grid.Background>
+        <Image Source="E:\Моё\Учебная практика\UchPractika\UchPractika\Resources\639437.gif" Margin="333,26,333,0" Height="44" VerticalAlignment="Top"/>
+        <Border MinWidth="50" Margin="10,91,10,0" Background="#FFD5EDFF" VerticalAlignment="Top" Padding="15" MaxWidth="450" CornerRadius="13" Height="430" >
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="16" Color="#FFDFDFDF" ShadowDepth="0"/>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock Text="Учёт оборудования" FontSize="30" FontWeight="Bold" Margin="0 0 0 10" HorizontalAlignment="Center"/>
+                <Button Name="Equipment" Content="Оборудование" Margin="0 10" Background="#FF8BB0E9" Foreground="#DD000000" BorderBrush="#FF496EFF" FontSize="16" Click="Equipment_Click" />
+                <Button Name="Assignment"  Content="Назначение оборудования сотрудникам" Margin="0 10"  Background="#FF8BB0E9" Foreground="#DD000000" Cursor="Hand" BorderBrush="#FF496EFF" FontSize="16"/>
+                <Button Name="Maintenance"  Content="Обслуживание оборудования" Margin="0 10"  Background="#FF8BB0E9" Foreground="#DD000000" Cursor="Hand" BorderBrush="#FF496EFF" FontSize="16"  />
+                <Button Name="Location" Content="Местоположение" Margin="0 10"  Background="#FF8BB0E9" Foreground="#DD000000" BorderBrush="#FF496EFF" FontSize="16" />
+                <Button Name="Suppliers" Content="Поставщики" Margin="0 10"  Background="#FF8BB0E9" Foreground="#DD000000" BorderBrush="#FF496EFF" FontSize="16" />
+                <Button Name="Price" Content="Стоимость" Margin="0 10" Background="#FF8BB0E9" Foreground="#DD000000" BorderBrush="#FF496EFF" FontSize="16" />
+                <Button Name="Users" Content="Пользователи" Margin="0 10" Background="#FF8BB0E9" Foreground="#DD000000" BorderBrush="#FF496EFF" FontSize="16" />
+                <Button Name="Exit" Content="Выход" Margin="0 10" Background="#FF8BB0E9" Foreground="#DD000000" BorderBrush="#FF496EFF" FontSize="16" Click="Exit_Click" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>
